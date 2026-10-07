@@ -1,0 +1,113 @@
+/* ===========================================
+   TYPOGRAPHY
+   JULIAN PORTFOLIO V2
+=========================================== */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+/* Base */
+
+body{
+    font-family:var(--font-body);
+    font-size:var(--fs-md);
+    color:var(--color-text);
+    line-height:1.7;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    font-family:var(--font-title);
+
+    color:var(--color-text);
+
+    font-weight:var(--fw-extrabold);
+
+    line-height:1.1;
+
+    letter-spacing:-2px;
+
+}
+
+/* Sizes */
+
+h1{
+
+    font-size:clamp(3.5rem,7vw,6rem);
+
+}
+
+h2{
+
+    font-size:clamp(2.5rem,5vw,4rem);
+
+}
+
+h3{
+
+    font-size:clamp(2rem,3vw,2.8rem);
+
+}
+
+h4{
+
+    font-size:1.6rem;
+
+}
+
+h5{
+
+    font-size:1.3rem;
+
+}
+
+h6{
+
+    font-size:1.1rem;
+
+}
+
+/* Paragraph */
+
+p{
+
+    color:var(--color-text-secondary);
+
+    font-size:1rem;
+
+    line-height:1.9;
+
+}
+
+/* Links */
+
+a{
+
+    transition:var(--transition-fast);
+
+}
+
+/* Strong */
+
+strong{
+
+    color:var(--color-text);
+
+}
+
+/* Small */
+
+small{
+
+    color:var(--color-text-secondary);
+
+    font-size:.85rem;
+
+}

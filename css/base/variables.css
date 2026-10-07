@@ -1,0 +1,119 @@
+/* ===========================================
+   DESIGN SYSTEM
+   JULIAN PORTFOLIO V2
+=========================================== */
+
+:root {
+
+    /*======================================
+      COLORES
+    ======================================*/
+
+    --color-primary: #C7E21C;
+    --color-primary-hover: #D7F230;
+
+    --color-background: #0D1117;
+    --color-surface: #161B22;
+    --color-card: #1D2430;
+    --color-border: #2C3442;
+
+    --color-text: #FFFFFF;
+    --color-text-secondary: #A3ABB8;
+
+    --color-success: #35C759;
+    --color-warning: #FFB020;
+    --color-danger: #FF4D4F;
+
+    /*======================================
+      TIPOGRAFÍA
+    ======================================*/
+
+    --font-title: "Manrope", sans-serif;
+    --font-body: "Inter", sans-serif;
+
+    /*======================================
+      TAMAÑOS
+    ======================================*/
+
+    --fs-xs: .75rem;
+    --fs-sm: .875rem;
+    --fs-md: 1rem;
+    --fs-lg: 1.25rem;
+    --fs-xl: 1.5rem;
+    --fs-2xl: 2rem;
+    --fs-3xl: 3rem;
+    --fs-4xl: 4rem;
+    --fs-5xl: 5rem;
+
+    /*======================================
+      GROSOR
+    ======================================*/
+
+    --fw-light:300;
+    --fw-regular:400;
+    --fw-medium:500;
+    --fw-semibold:600;
+    --fw-bold:700;
+    --fw-extrabold:800;
+
+    /*======================================
+      ESPACIADOS
+    ======================================*/
+
+    --space-1:8px;
+    --space-2:16px;
+    --space-3:24px;
+    --space-4:32px;
+    --space-5:48px;
+    --space-6:64px;
+    --space-7:96px;
+    --space-8:128px;
+
+    /*======================================
+      BORDER RADIUS
+    ======================================*/
+
+    --radius-sm:8px;
+    --radius-md:16px;
+    --radius-lg:24px;
+    --radius-xl:32px;
+
+    /*======================================
+      SOMBRAS
+    ======================================*/
+
+    --shadow-sm:0 5px 15px rgba(0,0,0,.15);
+
+    --shadow-md:0 10px 30px rgba(0,0,0,.25);
+
+    --shadow-lg:0 25px 60px rgba(0,0,0,.40);
+
+    /*======================================
+      TRANSICIONES
+    ======================================*/
+
+    --transition-fast:.25s ease;
+    --transition-normal:.4s ease;
+    --transition-slow:.7s ease;
+
+    /*======================================
+      CONTENEDOR
+    ======================================*/
+
+    --container-width:1400px;
+
+    /*======================================
+      HEADER
+    ======================================*/
+
+    --header-height:90px;
+
+    /*======================================
+      Z INDEX
+    ======================================*/
+
+    --z-navbar:999;
+    --z-modal:1000;
+    --z-loader:2000;
+
+}

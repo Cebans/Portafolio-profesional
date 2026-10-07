@@ -1,0 +1,5 @@
+# Archivos temporales del sistema y del trabajo local
+.DS_Store
+Thumbs.db
+Desktop.ini
+work/

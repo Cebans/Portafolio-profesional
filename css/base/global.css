@@ -1,0 +1,89 @@
+/* ===========================================
+   GLOBAL STYLES
+   JULIAN PORTFOLIO V2
+=========================================== */
+
+/* Body */
+
+body{
+    background: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+}
+
+/* Contenedor principal */
+
+.container{
+    width: min(90%, var(--container-width));
+    margin: 0 auto;
+}
+
+/* Secciones */
+
+section{
+    padding: var(--space-8) 0;
+    position: relative;
+}
+
+/* Botones */
+
+button{
+    font-family: inherit;
+    transition: var(--transition-fast);
+}
+
+/* Cursor */
+
+button,
+a{
+    cursor: pointer;
+}
+
+/* Imágenes */
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Videos */
+
+video{
+    width:100%;
+    height:auto;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:var(--color-background);
+}
+
+::-webkit-scrollbar-thumb{
+    background:var(--color-primary);
+    border-radius:50px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:var(--color-primary-hover);
+}
+
+/* Selección */
+
+::selection{
+    background:var(--color-primary);
+    color:#000;
+}
+
+/* Utilidad */
+
+.hidden{
+    display:none;
+}

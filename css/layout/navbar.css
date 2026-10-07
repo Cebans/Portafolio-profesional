@@ -1,0 +1,132 @@
+/*=========================================
+    NAVBAR
+=========================================*/
+
+.navbar{
+
+    position:fixed;
+
+    top:20px;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:min(92%,1400px);
+
+    height:72px;
+
+    padding:0 32px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    z-index:var(--z-navbar);
+
+    background:rgba(13,17,23,.55);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    transition:.35s;
+
+}
+
+.logo{
+
+    font-family:var(--font-title);
+
+    font-weight:800;
+
+    font-size:1.3rem;
+
+    color:white;
+
+}
+
+.logo span{
+
+    color:var(--color-primary);
+
+}
+
+.nav-menu{
+
+    display:flex;
+
+    gap:32px;
+
+    align-items:center;
+
+}
+
+.nav-menu a{
+
+    position:relative;
+
+    padding:8px 0;
+
+}
+
+.nav-menu a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-4px;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--color-primary);
+
+    transition:.35s;
+
+}
+
+.nav-menu a:hover::after{
+
+    width:100%;
+
+}
+
+.nav-menu a:hover{
+
+    color:white;
+
+}
+
+.nav-actions{
+
+    display:flex;
+
+    gap:16px;
+
+    align-items:center;
+
+}
+
+/*=========================================
+    NAVBAR SCROLLED
+=========================================*/
+
+.navbar.scrolled{
+
+    background:rgba(13,17,23,.92);
+
+    box-shadow:0 15px 45px rgba(0,0,0,.35);
+
+    border-color:rgba(255,255,255,.12);
+
+    top:12px;
+
+}

@@ -1,0 +1,98 @@
+/* ===========================================
+   RESET CSS
+   JULIAN PORTFOLIO V2
+=========================================== */
+
+/* Box sizing */
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Scroll suave */
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* Body */
+
+body{
+    min-height:100vh;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+}
+
+/* Imágenes */
+
+img,
+picture{
+    display:block;
+    max-width:100%;
+}
+
+/* Multimedia */
+
+video,
+canvas,
+svg{
+    display:block;
+    max-width:100%;
+}
+
+/* Formularios */
+
+input,
+button,
+textarea,
+select{
+    font:inherit;
+    border:none;
+    outline:none;
+    background:none;
+}
+
+/* Botones */
+
+button{
+    cursor:pointer;
+}
+
+/* Links */
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+/* Listas */
+
+ul,
+ol{
+    list-style:none;
+}
+
+/* Tablas */
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* Textarea */
+
+textarea{
+    resize:none;
+}
+
+/* Selección de texto */
+
+::selection{
+    background:var(--color-primary);
+    color:#000;
+}
